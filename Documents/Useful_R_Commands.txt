@@ -1,5 +1,4 @@
-train is a trainframe with many columns.
-
+train is a dataframe with many columns. 
 1) list NA with a column
 train$status[is.na(train$status)]
 
@@ -8,3 +7,5 @@ train$status[is.na(train$status)]=FALSE
 
 3) replace NA with mean (usefull for columns with numric values)
 train$libor_rate[is.na(train$libor_rate)]=mean(train$libor_rate)
+
+4)
